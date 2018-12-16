@@ -1,0 +1,56 @@
+html, body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+a{
+    margin: 10%;
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+section{
+    float: right;
+    width: 63%;
+    margin: 3%;
+}
+
+header{
+    float: left;
+    width: 29%;
+}
+nav{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 10%;
+    width: 63%;
+    float: right;
+    border: 2px cornflowerblue solid;
+    margin: 3%;
+}
+
+footer{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    clear: both;
+}
+
+img{
+    max-width: 100%;
+}
+
+#imagenes img{
+    width: 21%;
+    margin: 2%;
+    float: left;
+}
+
+#logo{
+    margin: 10%;
+}

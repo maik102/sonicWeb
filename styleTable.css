@@ -1,0 +1,53 @@
+html, body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+a{
+    display: block;
+    margin: 15%; 
+    background-color: aquamarine;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+}
+
+img{
+    max-width: 100%; 
+}
+
+nav{ 
+    width: 40%;
+    margin: 2%;
+    position: absolute;
+    margin-top: 50%;
+}
+
+header{
+    width: 40%;
+    margin: 2%; 
+    float: left;
+}
+
+section{
+    width: 50%;
+    float: right;
+    margin: 2%;
+}
+
+footer{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    clear: both;
+}
+
+#imagenes img{
+    width: 40%;
+    margin: 5%;
+    float: left;
+}
